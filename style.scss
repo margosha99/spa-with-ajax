@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    background-color: #ccc;
+    padding: 5px 0;
+    border-radius: 10px;
+    width: 60%;
+    margin: 15px auto;
+}
+h1{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 119, 243);
+    padding: 10px 0 10px 15px;
+   &__item{
+       list-style: none;
+       margin-right: 20px;
+
+       >a{
+           padding: 5px 15px;
+           background-color:  rgb(5, 74, 202);
+           border-radius: 20px; 
+           font-weight: 500;
+        }
+    }
+}
+.description{
+    padding: 0 15px;
+}
